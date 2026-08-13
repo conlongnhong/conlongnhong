@@ -49,18 +49,18 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=conlongnhong&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=BB86FC&text_color=C9D1D9" alt="Yang's GitHub statistics">
-<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=conlongnhong&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=C9D1D9" alt="Yang's most used languages">
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=conlongnhong&theme=tokyonight" alt="Yang's GitHub statistics">
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=conlongnhong&theme=tokyonight" alt="Yang's top languages by repository">
 
 </div>
 
 ---
 
-## CONTRIBUTION MATRIX
+## ACTIVITY SIGNAL
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="Yang's three-dimensional GitHub contribution graph">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=conlongnhong&bg_color=0D1117&color=39FF14&line=BB86FC&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Yang's GitHub contribution activity graph">
 
 </div>
 
