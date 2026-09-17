@@ -1,0 +1,87 @@
+<svg width="450" height="230" viewBox="0 0 450 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_grad_lang" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="neon_border_lang" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#BB86FC" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="1" y="1" width="448" height="228" rx="10" fill="url(#bg_grad_lang)" stroke="#30363d" stroke-width="1.2" />
+  
+  <!-- Cyberpunk Top Accent Bar -->
+  <rect x="1" y="1" width="448" height="3" rx="1" fill="url(#neon_border_lang)" />
+
+  <!-- Corner Brackets -->
+  <path d="M 12 22 L 22 22 M 12 22 L 12 32" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" />
+  <path d="M 438 22 L 428 22 M 438 22 L 438 32" stroke="#BB86FC" stroke-width="2" stroke-linecap="round" />
+  <path d="M 12 218 L 22 218 M 12 218 L 12 208" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" />
+  <path d="M 438 218 L 428 218 M 438 218 L 438 208" stroke="#39FF14" stroke-width="2" stroke-linecap="round" />
+
+  <style>
+    .title { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; font-size: 13px; font-weight: 700; fill: #00F0FF; letter-spacing: 1.5px; }
+    .lang-label { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #e6edf3; font-weight: 500; }
+    .lang-pct { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #8b949e; font-weight: 600; }
+  </style>
+
+  <!-- Header -->
+  <circle cx="28" cy="27" r="4" fill="#00F0FF" />
+  <text x="40" y="31" class="title">ARSENAL // CODE FREQUENCY</text>
+
+  <!-- Dividers -->
+  <line x1="20" y1="46" x2="430" y2="46" stroke="#30363d" stroke-width="1" />
+
+  <!-- Language Rows -->
+  
+    <g transform="translate(26, 64)">
+      <text x="0" y="11" class="lang-label">C++</text>
+      <rect x="110" y="2" width="220" height="10" rx="5" fill="#21262d" />
+      <rect x="110" y="2" width="92" height="10" rx="5" fill="#f34b7d" />
+      <text x="345" y="11" class="lang-pct">41.9%</text>
+    </g>
+    <g transform="translate(26, 88)">
+      <text x="0" y="11" class="lang-label">QML</text>
+      <rect x="110" y="2" width="220" height="10" rx="5" fill="#21262d" />
+      <rect x="110" y="2" width="92" height="10" rx="5" fill="#41cd52" />
+      <text x="345" y="11" class="lang-pct">41.9%</text>
+    </g>
+    <g transform="translate(26, 112)">
+      <text x="0" y="11" class="lang-label">Python</text>
+      <rect x="110" y="2" width="220" height="10" rx="5" fill="#21262d" />
+      <rect x="110" y="2" width="15" height="10" rx="5" fill="#3572a5" />
+      <text x="345" y="11" class="lang-pct">7.1%</text>
+    </g>
+    <g transform="translate(26, 136)">
+      <text x="0" y="11" class="lang-label">TypeScript</text>
+      <rect x="110" y="2" width="220" height="10" rx="5" fill="#21262d" />
+      <rect x="110" y="2" width="12" height="10" rx="5" fill="#3178c6" />
+      <text x="345" y="11" class="lang-pct">3.9%</text>
+    </g>
+    <g transform="translate(26, 160)">
+      <text x="0" y="11" class="lang-label">Rust</text>
+      <rect x="110" y="2" width="220" height="10" rx="5" fill="#21262d" />
+      <rect x="110" y="2" width="12" height="10" rx="5" fill="#dea584" />
+      <text x="345" y="11" class="lang-pct">3.2%</text>
+    </g>
+    <g transform="translate(26, 184)">
+      <text x="0" y="11" class="lang-label">Lua</text>
+      <rect x="110" y="2" width="220" height="10" rx="5" fill="#21262d" />
+      <rect x="110" y="2" width="12" height="10" rx="5" fill="#000080" />
+      <text x="345" y="11" class="lang-pct">1.6%</text>
+    </g>
+
+  <!-- Footer multi-bar preview -->
+  <g transform="translate(26, 208)">
+    <clipPath id="multi_bar_clip">
+      <rect x="0" y="0" width="398" height="6" rx="3" />
+    </clipPath>
+    <g clip-path="url(#multi_bar_clip)">
+      <rect x="0" y="0" width="166.81151435187584" height="6" fill="#f34b7d" /><rect x="166.81151435187584" y="0" width="166.65559145327617" height="6" fill="#41cd52" /><rect x="333.467105805152" y="0" width="28.367613290154047" height="6" fill="#3572a5" /><rect x="361.83471909530607" y="0" width="15.55197678632961" height="6" fill="#3178c6" /><rect x="377.38669588163566" y="0" width="12.927947178914415" height="6" fill="#dea584" /><rect x="390.3146430605501" y="0" width="6.535768166302659" height="6" fill="#000080" />
+    </g>
+  </g>
+</svg>
